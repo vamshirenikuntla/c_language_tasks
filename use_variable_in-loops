@@ -1,12 +1,13 @@
 #include <stdio.h>
-int main(void) {
+int main(void)
+{
   int i;
   int numberofHazelnuts = 0;
-  int distaneTraveled =0;
-  for(i=0; i<9; i++);
-    print("At %d miles I have %d hazelnuts.\n ", distanceTraveled, numberofHazelnuts);
-    distanceTraveled = distanceTraveled + 1;
-    numberofHazelnuts = numberofHazelnuts = 3;
-  }
-  return 0;
+  int distanceTraveled = 0;
+  for (i = 0; i < 9; i++){
+  printf("At %d miles I have %d hazelnuts.\n ", distanceTraveled, numberofHazelnuts);
+  distanceTraveled = distanceTraveled + 1;
+  numberofHazelnuts = numberofHazelnuts + 3;
+}
+ return 0;
 }
